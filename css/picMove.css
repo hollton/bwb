@@ -1,0 +1,203 @@
+.active{ 
+	width:200px;
+	height:200px; 
+	background:#ffffff; 
+	text-align:center; 
+	border:1px solid #706F6B; 
+	float:left; 
+	position:absolute;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	-moz-box-shadow:0px 2px 8px rgba(0,0,0,0.6);
+	-webkit-box-shadow:0px 2px 8px rgba(0,0,0,0.6);
+	box-shadow:0px 2px 8px rgba(0,0,0,0.6);}
+	
+#div{width:850px; height:358px; position:absolute; margin-top: 2px; *+margin-left:-34px;}
+.active1{width:200px; height:158px; top:5px; left:28px; z-index:1; opacity: 0.8; filter:alpha(opacity=80);}
+.active2{width:280px; height:221px; top:25px; left:99px; z-index:2; opacity: 0.9; filter:alpha(opacity=90);}
+.active3{width:380px; height:300px; top:41px; left:235px; z-index:3; opacity: 1; filter:alpha(opacity=100);}
+.active4{width:280px; height:221px; top:25px; left: 470px; z-index:2; opacity: 0.9; filter:alpha(opacity=90);}
+.active5{width:200px; height:158px; top:5px; left: 619px; z-index:1; opacity: 0.8; filter:alpha(opacity=80);}
+
+#arrow_left{position: relative; top: 170px; float:left;cursor: pointer; background-image:url(../images/arrow_left.png); width:34px ; height:34px;}
+#arrow_left:hover{background-image:url(../images/arrow_left_hover.png);}
+#arrow_right{position: relative; top: 170px; float:right;cursor: pointer;background-image:url(../images/arrow_right.png); width:34px ; height:34px;}
+#arrow_right:hover{background-image:url(../images/arrow_right_hover.png);}
+
+/*-------遮罩div-----*/	
+#div1{
+	width: 70px;
+	height: 160px;
+	position:absolute;
+	margin: 7px 0 0 29px;
+	cursor:pointer;
+	z-index:20;
+	background:#fff;
+	filter:alpha(opacity=0);
+	opacity:0;
+	_background:none;}
+#div2{
+	width: 136px;
+	height: 222px;
+	position: absolute;
+	margin: 28px 0 0 99px;
+	cursor: pointer;
+	z-index: 20;
+	background:#fff;
+	filter:alpha(opacity=0);
+	opacity:0;
+	_background:none;}
+#div4{
+	width: 136px;
+	height: 222px;
+	position: absolute;
+	margin: 28px 0 0 616px;
+	cursor:pointer;
+	z-index:20;
+	background:#fff;
+	filter:alpha(opacity=0);
+	opacity:0;
+	_background:none;}
+#div5{
+	width: 70px;
+	height: 160px;
+	position: absolute;
+	margin: 7px 0 0 751px;
+	cursor:pointer;
+	z-index:20;
+	background:#fff;
+	filter:alpha(opacity=0);
+	opacity:0;
+	_background:none;}
+
+	
+.active1 img{
+	width: 170px;
+	height: 100px;
+	margin-top:6px;}
+.active1 .news_title{
+	font-size:14px;
+	text-align:center;
+	margin-top:4px;
+	display:block;}
+.active1 .news_content{
+	font-size:11px;
+	text-align:left;
+	margin:4px 3px 2px 3px;
+	text-indent:2em;
+	display:block;
+	line-height:14px;
+	height: 15px;
+	overflow: hidden;}
+.active1 .news_detial{
+	color:#F97D23;
+	text-align:right;
+	display:block;
+	margin-right: 8px;
+	font-size:11px;}
+	
+	
+.active2 img{
+	width:245px;
+	height:144px;
+	margin-top:6px;}
+.active2 .news_title{
+	font-size:15px;
+	text-align:center;
+	margin-top:6px;
+	display:block;}
+.active2 .news_content{
+	font-size:12px;
+	text-align:left;
+	margin:3px 4px 0px 4px;
+	text-indent:2em;
+	display:block;
+	line-height:16px;
+	height:34px;
+	overflow:hidden;}
+.active2 .news_detial{
+	color:#F97D23;
+	text-align:right;
+	display:block;
+	margin-right: 14px;
+	font-size:12px;}
+
+	
+.active3 img{
+	width:340px;
+	height:200px;
+	margin-top:6px;}
+.active3 .news_title{
+	font-size:16px;
+	text-align:center;
+	margin-top:10px;
+	display:block;}
+.active3 .news_content{
+	font-size:13px;
+	text-align:left;
+	margin:12px 5px 0px 5px;
+	text-indent:2em;
+	display:block;
+	line-height:18px;
+	height: 36px;
+	overflow:hidden;}
+.active3 .news_detial{
+	color:#F97D23;
+	text-align:right;
+	display:block;
+	margin-right: 20px;
+	font-size:13px;}
+	
+	
+.active4 img{
+	width:245px;
+	height:144px;
+	margin-top:6px;}
+.active4 .news_title{
+	font-size:15px;
+	text-align:center;
+	margin-top:6px;
+	display:block;}
+.active4 .news_content{
+	font-size:12px;
+	text-align:left;
+	margin:3px 4px 0px 4px;
+	text-indent:2em;
+	display:block;
+	line-height:16px;
+	height:34px;
+	overflow:hidden;}
+.active4 .news_detial{
+	color:#F97D23;
+	text-align:right;
+	display:block;
+	margin-right: 14px;
+	font-size:12px;}
+
+	
+.active5 img{
+	width: 170px;
+	height: 100px;
+	margin-top:6px;}
+.active5 .news_title{
+	font-size:14px;
+	text-align:center;
+	margin-top:4px;
+	display:block;}
+.active5 .news_content{
+	font-size:11px;
+	text-align:left;
+	margin:4px 3px 2px 3px;
+	text-indent:2em;
+	display:block;
+	line-height:14px;
+	height: 15px;
+	overflow: hidden;}
+.active5 .news_detial{
+	color:#F97D23;
+	text-align:right;
+	display:block;
+	margin-right: 8px;
+	font-size:11px;}

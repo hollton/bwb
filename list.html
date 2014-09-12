@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/second.css"/>
+<title>合肥工业大学保卫部、人武部</title>
+</head>
+
+<body onload="time()">
+    <div class="top_bg">
+        <div class="top">
+            <div class="top_left"><a href="http://www.hfut.edu.cn" target="_blank">工大首页</a>&nbsp;|&nbsp;<a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">收藏本站</a></div>
+            <div class="top_right"><input id="date" readOnly="true"></div>
+        </div>
+    </div>
+    
+    <div class="head_bg">
+        <div class="head">
+            <div class="school"></div>
+            <div class="title">保卫办公室（党委保卫部、人武部）</div>
+        </div>
+    </div>
+    
+    <div class="nav_bg">
+        <div class="nav">
+            <ul class="menu">
+            	<li><a href="#">首  页</a><span>|</span></li>
+            	<li><a href="#">部门概况</a><span>|</span></li>
+            	<li id="service"><a href="#">为您服务</a><span>|</span>
+                	<ul id="ul2">
+                    	<li><a href="#">办事指南</a></li>
+                    	<li><a href="#">失物招领</a></li>
+                    	<li><a href="#">网上服务</a></li>
+                    </ul>
+                </li>
+            	<li><a href="#">工作动态</a><span>|</span></li>
+            	<li><a href="#">通知公告</a><span>|</span></li>
+            	<li><a href="#">政策法规</a><span>|</span></li>
+            	<li><a href="#">安全教育</a><span>|</span></li>
+            	<li><a href="#">下载专区</a><span>|</span></li>
+            	<li><a href="#">常用电话</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="center">
+    	
+        <div class="sider">
+        	<h3>通知公告</h3>
+        	<ul>
+            	<li><a href="#">通知</a></li>
+            	<li><a href="#">公告</a></li>
+            </ul>
+        </div>
+    	
+        <div class="subject">
+        	<ul>
+            	<li><a href="#">关于发布2012级学生搬迁车辆进出校园安排的通知</a><span class="date">[2014-07-16]</span></li>
+            	<li><a href="#">关于发布2012级学生搬迁车辆进出校园安排的通知</a><span class="date">[2014-07-16]</span></li>
+            	<li><a href="#">关于发布2012级学生搬迁车辆进出校园安排的通知</a><span class="date">[2014-07-16]</span></li>
+            	<li><a href="#">关于发布2012级学生搬迁车辆进出校园安排的通知</a><span class="date">[2014-07-16]</span></li>
+            </ul>
+            
+            <div class="pages">
+                <a href="#">首页</a>
+                <a href="#">上一页</a>
+                <a href="#">下一页</a>
+                <a href="#">末页</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="foot_bg">
+    	<div class="foot">
+    		<div class="line1">&nbsp;</div>
+    		<div class="line1 line2">&nbsp;</div>
+            
+            <div class="copy">合肥工业大学&nbsp;&nbsp;保卫处版权所有&nbsp;&nbsp;&copy;2014</div>
+            <div>地址：安徽省合肥市屯溪路193号&nbsp;&nbsp;&nbsp;&nbsp;邮编：230009&nbsp;&nbsp;&nbsp;&nbsp;电话：0551-62901110</div>
+    	</div>
+    </div>
+
+
+
+<script src="js/jquery-1.8.3.js"></script>
+<script>
+$(function(){
+	$('#ul2').hide();
+	$('#service').hover(function(){$('#ul2').show(400);},function(){$('#ul2').hide(400);});
+});
+</script>
+<script src="js/date.js"></script>
+</body>
+</html>
