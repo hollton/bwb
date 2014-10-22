@@ -1,9 +1,8 @@
 //日期时间
-var browser=navigator.appName 
-var b_version=navigator.appVersion 
+var browser=navigator.appName;
+var b_version=navigator.appVersion;
 var version=b_version.split(";"); 
-var trim_Version=version[1].replace(/[ ]/g,""); 
-
+if(version[1]){var trim_Version=version[1].replace(/[ ]/g,""); }
 function time(){
                 var week; var now=new Date();
 				
